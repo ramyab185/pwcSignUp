@@ -1,0 +1,78 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:"Arial";
+}
+
+.header{
+    z-index:1000;
+    width:100%;
+}
+
+.headerContainer{
+    display:flex;
+    width:100%;
+    background: #fff;
+    height: 85px;
+    padding-left:20px;
+    border-bottom: 4px solid #000;
+    box-shadow: 0 4px 3px gray;
+}
+
+.logoContainer{
+    padding:10px;
+}
+
+.titleContainer{
+    padding:30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#logo{
+    text-indent: -9999em;
+    display: inline-block;
+    width: 69px;
+    height: 52px;
+    top: -30px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../PwC-logo.svg);
+}
+
+form{
+    padding:30px;
+    font-size: 18px;
+}
+
+.itemsContainer{
+    display:flex;
+    padding-bottom: 30px;
+}
+
+.itemsWrapper{
+    display:flex;
+    flex-direction: column;
+    margin-right:100px;
+}
+
+.itemsWrapper > input, select{
+    margin-top:10px;
+}
+
+.itemsContainer a{
+    text-decoration: none;
+}
+
+input[type="text"], select{
+    height:30px;
+    width:200px;
+    border:1px solid #c0c0c0;
+    border-radius: 2px;
+    background-color: #f0f0f0;
+}
+
+.flex-fill{
+    flex-grow: 1;
+}

@@ -1,0 +1,25 @@
+button,input[type="submit"]{
+    background: linear-gradient( #fff, #C0C0C0);
+    height:30px;
+    border:1px solid #c0c0c0;
+    border-radius :4px;
+    min-width: 100px;
+    margin-top:10px;
+    margin-right: 20px;
+}
+
+input[type="submit"], button.selected{
+    background: linear-gradient( #CC9933, #CC3333);
+    color:#fff;
+}
+
+button.selected:before{
+    width:10px;
+    height:10px;
+    content:"\2713";
+    background: linear-gradient(#0099CC, #3366FF);
+    border-radius: 20px;
+    padding:0 2px;
+    margin-right:10px;
+    color:black;
+}

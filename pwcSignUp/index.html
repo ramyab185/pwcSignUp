@@ -1,0 +1,68 @@
+<head>
+  <title>pwc SignUp</title>
+  <script src="js/jquery.js" type="text/javascript"></script>
+  <script src="js/signup.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/checkbox.css" type="text/css" />
+  <link rel="stylesheet" href="css/button.css" type="text/css" />
+</head>
+
+<body>
+  <header id="fixedHeader" class="header">
+    <div class="headerContainer">
+      <div class="logoContainer">
+        <a href="/" id="logo">PwC</a>
+      </div>
+      <div class="titleContainer">
+        <label class="title">SignUp for the PwC Newsletter</label>
+      </div>
+    </div>
+  </header>
+  <form name="signUpForm">
+    <div class="itemsContainer">
+      <div class="itemsWrapper">
+        <label>Full Name</label>
+        <input type="text" />
+      </div>
+      <div class="itemsWrapper">
+        <label>Email</label>
+        <input type="text" />
+      </div>
+    </div>
+
+    <div class="itemsContainer">
+      <div class="itemsWrapper">
+        <label>Which newsletters would you like to receive?</label>
+        <select>
+          <option value="default">Please choose...</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="itemsContainer">
+      <div class="itemsWrapper">
+        <label>How often would you like the updates?</label>
+        <div id="btn-group">
+          <button type='button'>Daily</button>
+          <button type='button' class="selected" >Weekly</button>
+          <button type='button'>Monthly</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemsContainer">
+      <input type="checkbox" id="test1" />
+      <label for="test1">Agree to our <a href="#">terms and conditions?</a></label>
+    </div>
+
+    <div class="itemsContainer">
+      <div class="flex-fill">
+        <button>Cancel</button>
+      </div>
+      <input type="submit" value="SignUp >" />
+    </div>
+
+  </form>
+</body>
+
+</html>
